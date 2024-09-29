@@ -3,16 +3,34 @@
 [GitHub]()
 ---
 
+## Git Version
+```sh
+git -v
+git --version
+git config --global user.name
+git config --global user.name "myaseminsungur"
+git config --global user.email
+git config --global user.email "mysmn@windowslive.com"
+git config --global core.editor "notepad++"
+git config --global -l
+git config core.autocrlf true
+
+
+```
+---
+
 ## Git
 ```sh
+
 git init
 git add .
+git add dosyaAdi dosyaAdi2
 git commit -m "initial commit"
 git remote add origin GitHubURL
 git remote
 git branch -M main
 git push -u origin origin
-git r
+
 ```
 ---
 
@@ -22,8 +40,10 @@ git r
 clear
 git status
 git log
+
 ```
 ---
+
 
 ## Git Hakkında
 ```sh
@@ -37,16 +57,19 @@ Git Nedir?
 - Git yazarı Linux çekirdeğini yazan Linus Torvalds tarafından 2005 yılında yazılıyor.
 - Eski kodlarımıza erişim sağlayabiliyoruz. 
 - Dosya değişikliğini önceki sürümlere geçerek sağlayabiliyoruz.
+
 ```
 ---
 
-## Git
+
+## Git Clone
 ```sh
-
+git clone https://github.com/myaseminsungur/Workshop_Git_GitHub_GitLab.git
 ```
 ---
 
-## Git
+
+## Git Alias
 ```sh
 
 ```
