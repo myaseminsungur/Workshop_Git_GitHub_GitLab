@@ -17,15 +17,26 @@ git r
 ---
 
 
-## Git Sıklıkla Kullanılanlar
+## Git Sıklıkla Kullanılan Komutlar
 ```sh
-
+clear
+git status
+git log
 ```
 ---
 
-## Git
+## Git Hakkında
 ```sh
-
+Git Nedir?
+- Global Information Tracked kısaltmasıdır
+- VCS Version Control System
+- Repository: GitHub, GitLab, vs. 
+- En önemli özelliği: Dağıtık olması. Aynı anda birden fazla kişiyle çalışabiliriz.
+- Ücretsiz
+- Açık kaynak kodludur. 
+- Git yazarı Linux çekirdeğini yazan Linus Torvalds tarafından 2005 yılında yazılıyor.
+- Eski kodlarımıza erişim sağlayabiliyoruz. 
+- Dosya değişikliğini önceki sürümlere geçerek sağlayabiliyoruz.
 ```
 ---
 
