@@ -55,7 +55,7 @@ git push
 
 NOT: Eğer önceden ilgili dosya "git add" ile eklenmişse 
 git commit -a -m "commit adı" 
-````
+```
 ---
 
 
@@ -76,6 +76,9 @@ Git Nedir?
 ---
 
 
+
+
+
 ## Git Clone
 ```sh
 git clone https://github.com/myaseminsungur/Workshop_Git_GitHub_GitLab.git
@@ -88,18 +91,26 @@ git clone https://github.com/myaseminsungur/Workshop_Git_GitHub_GitLab.git
 git log --decorate --oneline --graph --all
 git config --global alias.graph "log --decorate --oneline --graph --all"
 git graph
-```
----
-
-## Git
-```sh
 
 ```
 ---
 
-## Git
-```sh
 
+## Git Remote
+```sh
+git remote 
+git remote set-url yeniRemoteAdi URLYazıyoruz
+
+```
+---
+
+
+## Git Diff
+```sh
+git log
+git diff commitID1 commitID2
+ git diff ba57baf c9dd820
+ 
 ```
 ---
 
