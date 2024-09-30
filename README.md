@@ -17,10 +17,19 @@ git config --global user.email "mysmn@windowslive.com"
 git config --global core.editor "notepad++"
 git config --global -l
 git config core.autocrlf true
+```
+---
 
+
+## Git Sıklıkla Kullanılan Komutlar
+```sh
+clear
+git status
+git log
 
 ```
 ---
+
 
 ## Git
 ```sh
@@ -38,13 +47,15 @@ git push -u origin origin
 ---
 
 
-## Git Sıklıkla Kullanılan Komutlar
+## Git Commit
 ```sh
-clear
-git status
-git log
+git add .
+git commit -m "mesaj adı"
+git push
 
-```
+NOT: Eğer önceden ilgili dosya "git add" ile eklenmişse 
+git commit -a -m "commit adı" 
+````
 ---
 
 
