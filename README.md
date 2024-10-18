@@ -1,6 +1,6 @@
 # Workshop Git, GitHub, GitLab
 [GitHub]()
-[GitHub]()
+[GitLab]()
 ---
 
  > Git
@@ -34,7 +34,6 @@ git config core.autocrlf true
 clear
 git status
 git log
-
 ```
 ---
 
@@ -79,7 +78,6 @@ Git Nedir?
 - Git yazarı Linux çekirdeğini yazan Linus Torvalds tarafından 2005 yılında yazılıyor.
 - Eski kodlarımıza erişim sağlayabiliyoruz. 
 - Dosya değişikliğini önceki sürümlere geçerek sağlayabiliyoruz.
-
 ```
 ---
 
@@ -99,7 +97,6 @@ git clone https://github.com/myaseminsungur/Workshop_Git_GitHub_GitLab.git
 git log --decorate --oneline --graph --all
 git config --global alias.graph "log --decorate --oneline --graph --all"
 git graph
-
 ```
 ---
 
