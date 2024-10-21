@@ -10,7 +10,6 @@
  - Git: Versiyon Kontrol Sistemi
  - GitHub: **Git** Repository
 
-
 ## Git Version
 ```sh
 git -v
@@ -49,7 +48,6 @@ git remote add origin GitHubURL
 git remote
 git branch -M main
 git push -u origin origin
-
 ```
 ---
 
@@ -84,7 +82,6 @@ Git Nedir?
 
 
 
-
 ## Git Clone
 ```sh
 git clone https://github.com/myaseminsungur/Workshop_Git_GitHub_GitLab.git
@@ -105,7 +102,6 @@ git graph
 ```sh
 git remote 
 git remote set-url yeniRemoteAdi URLYazıyoruz
-
 ```
 ---
 
@@ -115,17 +111,22 @@ git remote set-url yeniRemoteAdi URLYazıyoruz
 git log
 git diff commitID1 commitID2
  git diff ba57baf c9dd820
-
 ```
 ---
 
-## Git
+
+## .gitignore
 ```sh
+# Bu dosyayı takip etme
+secret.txt
+
+# React, Angular vs.
+node_modules
 
 ```
 ---
 
-## Git
+## Git Stash
 ```sh
 
 ```
