@@ -10,7 +10,7 @@
  - Git: Versiyon Kontrol Sistemi
  - GitHub: **Git** Repository
 
-## Git Version
+## Git Config
 ```sh
 git -v
 git --version
@@ -37,7 +37,7 @@ git log
 ---
 
 
-## Git
+## Git Remote
 ```sh
 
 git init
@@ -140,19 +140,36 @@ git stash pop
 ```
 ---
 
-## Git
+## Git Tag
+```sh
+git add .
+git tag v1.0.0 - isimlendirme
+git show v1.0.0 - bana bu versiyonda ne varsa göster
+git checkout v1.0.0 - istediğim versiyona geçiş sağlayabilme
+git checkout main - yukarıdaki işlemlerden sonra main branch'a dönmek istediğimde bunu kullanırım
+git push origin v1.0.0 - bu tag'i gönderme
+git tag --delete v1.0.0 - versiyonu silme
+```
+---
+
+## Git Pull/Fetch
+```sh
+git pull: Uzak repodaki bütün dosyaları hemen local projemize ekler.
+NOT: Genelde conflict yeriz.
+
+git fetch: Uzak repodaki bütün dosyaları hemen local projemize EKLEMEZ.
+Biz kontrol ettikten sonra istersek local projemize ekleriz.
+NOT: Conflict yememek için kullanmak gerekir.
+```
+---
+
+## Git Conflict
 ```sh
 
 ```
 ---
 
-## Git
-```sh
-
-```
----
-
-## Git
+## Git Conflict
 ```sh
 
 ```
