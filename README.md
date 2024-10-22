@@ -160,10 +160,16 @@ NOT: Genelde conflict yeriz.
 git fetch: Uzak repodaki bütün dosyaları hemen local projemize EKLEMEZ.
 Biz kontrol ettikten sonra istersek local projemize ekleriz.
 NOT: Conflict yememek için kullanmak gerekir.
+
+git fetch
+git branch -a
+git checkout remote/origin/main
+git checout main
+git merge origin/main
 ```
 ---
 
-## Git Conflict
+## Git Branch
 ```sh
 
 ```
