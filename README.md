@@ -177,6 +177,10 @@ git merge origin/main
 
 ## Git Conflict
 ```sh
+git reset HEAD~1
+git add .
+git commit -m "Çakışma Sonrası"
+git push --force
 
 ```
 ---
