@@ -210,7 +210,11 @@ git merge backend
 
 ## Git Merge
 ```sh
+git switch main
+git merge frontend
 
+git switch main
+git merge --no-ff backend
 ```
 ---
 
